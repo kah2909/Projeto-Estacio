@@ -66,7 +66,7 @@ def logaritmo_natural(x):
 
 def logaritmo_decimal(x):
     if x <= 0:
-        messagebox.showerror("Erro", "Logaritmo decimal de número não positivo!")
+        messagebox.showerror("Erro",  decimal de número não positivo!")
         return None
     else:
         return math.log10(x)
